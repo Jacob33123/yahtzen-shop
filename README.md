@@ -1,4 +1,33 @@
+Ecommerce frontend for buying and leasing music. Built using Next.js, connects to a [saleor-platform](https://github.com/saleor/saleor-platform) backend used to track inventory and orders. Interfaces with Saleor backend using Apollo and GraphQL. This is an active work in progress.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Current Features
+
+Browse through a playlist of songs, seek through tracks by clicking position in waveform, shuffle through playlist and enable song repeat.
+
+https://github.com/Jacob33123/yahtzen-shop/assets/12245405/3541c576-f4d9-444c-ac76-48cfa84df7b3
+
+
+
+Filter current playlist by Beats per Minute (BPM), and/or availability of leasing/exclusive purchase rights (Note: this availability tracked in Saleor).
+
+https://github.com/Jacob33123/yahtzen-shop/assets/12245405/37b0437e-f891-49a4-ac03-0739f71e21ca
+
+
+
+Purchase options are displayed in track player view, and the buttons are dynamically disabled based on availability and whether or not the current track is already in your cart.
+
+https://github.com/Jacob33123/yahtzen-shop/assets/12245405/901dcfd3-1cfc-4bc5-a4ba-c2637ccc7408
+
+
+
+Dynamically updating shopping cart with active subtotal.
+
+https://github.com/Jacob33123/yahtzen-shop/assets/12245405/f15394e0-c787-4d4d-a28b-2115031386f6
+
+
+
 
 ## Getting Started
 
