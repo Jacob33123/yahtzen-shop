@@ -1,6 +1,6 @@
 ## Overview
 
-This is an ecommerce frontend for leasing music and purchasing exclusive rights. 
+This the frontend for an ecommerce platform centered around music licensing. The app allows users to browse through songs, see purchasing options and availability for leasing and exclusive rights, and add the desired items to a shopping cart. 
 
 Built using Next.js, this repo connects to a [saleor-platform](https://github.com/saleor/saleor-platform) backend which is used for order and inventory management. Interfaces with Saleor backend using Apollo and GraphQL. This is an active work in progress.
 
