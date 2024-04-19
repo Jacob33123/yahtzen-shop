@@ -6,22 +6,50 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "codegen": "graphql-codegen --config codegen.ts"
   },
   "dependencies": {
+    "@apollo/client": "^3.9.10",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fontsource/roboto": "^5.0.12",
+    "@mui/icons-material": "^5.15.15",
+    "@mui/material": "^5.15.15",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "graphql": "^16.8.1",
+    "lodash.isequal": "^4.5.0",
+    "next": "14.1.4",
+    "rc-slider": "^10.5.0",
+    "rc-tooltip": "^6.2.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.4"
+    "react-modern-audio-player": "^1.4.0-rc.2",
+    "styled-components": "^6.1.8"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@0no-co/graphqlsp": "^1.7.1",
+    "@graphql-codegen/cli": "^5.0.2",
+    "@graphql-codegen/client-preset": "^4.2.5",
+    "@graphql-codegen/introspection": "4.0.3",
+    "@graphql-codegen/typescript": "^4.0.6",
+    "@graphql-codegen/typescript-operations": "^4.2.0",
+    "@graphql-codegen/typescript-react-apollo": "^4.3.0",
+    "@graphql-codegen/typescript-resolvers": "^4.0.6",
+    "@parcel/watcher": "^2.4.1",
+    "@types/lodash.isequal": "^4.5.8",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.4"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "overrides": {
+    "undici": "5.5.1"
   }
 }
