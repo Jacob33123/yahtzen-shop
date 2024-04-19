@@ -13,14 +13,17 @@ Browse through a playlist of songs, seek through tracks by clicking position in 
 https://github.com/Jacob33123/yahtzen-shop/assets/12245405/3541c576-f4d9-444c-ac76-48cfa84df7b3
 
 
+
 Filter current playlist by Beats per Minute (BPM), and/or availability of leasing/exclusive purchase rights (Note: this availability tracked in Saleor).
 
 https://github.com/Jacob33123/yahtzen-shop/assets/12245405/37b0437e-f891-49a4-ac03-0739f71e21ca
 
 
+
 Purchase options are displayed in track player view, and the buttons are dynamically disabled based on availability and whether or not the current track is already in your cart.
 
 https://github.com/Jacob33123/yahtzen-shop/assets/12245405/901dcfd3-1cfc-4bc5-a4ba-c2637ccc7408
+
 
 
 Dynamically updating shopping cart with active subtotal.
