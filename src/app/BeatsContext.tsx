@@ -57,7 +57,8 @@ const latestBeats = graphql(/* GraphQL */ `
   }
 `);
 
-const getAudioUrl = (fileName?: string) => `/beats/${fileName}`;
+const getAudioUrl = (fileName?: string) =>
+  `https://yahtzen-beats.s3.us-east-2.amazonaws.com/${fileName}`;
 
 export const BeatsContextProvider = ({
   children,
